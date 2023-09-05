@@ -1,3 +1,82 @@
-body{
-    background-color: blueviolet;
+body {
+    /* cor de fundo do site */
+    background-color: rgba(185, 245, 245, 0.589);
+    /* tipo fonte do nosso site*/
+    font-family: Arial, sans-serif;
+    /* tamanho da fonte */
+    font-size: 16px;
 }
+
+img {
+    width: 700px;
+    text-align: center;
+    
+    /* Garante que a imagem não seja maior do que o seu contêiner 
+    man-width: 100%;
+    /* Centralizar a imagem horizontal */
+}
+
+header {
+    /* cor de fundo */
+    background-color: rgb(15, 163, 52);
+    /* cor do texto */
+    color: #d105b6;
+    /* alinhamento do texto */
+    text-align: center;
+    /* preenchimento */
+    padding: 15px;
+}
+
+.imagem {
+    display: flex;
+
+}
+
+footer {
+    /* cor de fundo */
+    background-color: rgb(160, 7, 32);
+    /* cor do texto */
+    color: #050505;
+    /* alinhamento do texto */
+    text-align: center;
+    /* preenchimento */
+    padding: 15px;
+}
+
+a:hover {
+    /* Alterar a cor do texto quando o mouse estiver sobre o link */
+    color: #9d70f1;
+}
+
+a { 
+    /* Adicione uma transição suave à cor ddo texto */
+    transition: color 0.3s ease;
+}
+nav{
+     background-color:darkgreen;
+     text-align: center;
+}
+
+nav ul { 
+    list-style: none;
+    padding: 0;
+ }
+
+ nav li{
+     display: inline;
+     margin-right: 30px;
+
+ }
+
+ nav a { 
+     text-decoration: none;
+     color:mediumpurple;
+     font-weight: bold;
+     font-size: 20px;
+ }
+
+ nav a:hover{
+    color:coral;
+    
+
+ }
