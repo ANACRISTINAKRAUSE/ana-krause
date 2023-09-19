@@ -77,6 +77,22 @@ nav ul {
 
  nav a:hover{
     color:coral;
-    
 
+ }
+
+ .sobre-titulo{
+     font-size:32px;
+     color:#9d70f1;
+     margin-bottom:50px;
+ }
+
+ .sobre-titulo{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top:10px;
+ }
+  
+ .sobre-lista{
+    list-style: circle;
+    padding-left:0;
+    margin-top:15px;
  }
